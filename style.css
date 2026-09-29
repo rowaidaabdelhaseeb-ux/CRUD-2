@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #f7f3ee;
+  color: #2d2520;
+  font-family: "Cairo", sans-serif;
+}
+.crud {
+  width: 70%;
+  margin: 100px auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #6f3824;
+  margin: 20px;
+  text-align: center;
+}
+Label {
+  color: #8b4a2f;
+  font-weight: bold;
+  width: 120px;
+  text-align: right;
+  margin-right: 15px;
+}
+input {
+  background-color: #ffffff;
+  color: #2d2520;
+  border: 1px solid #d6c7b8;
+  padding: 12px;
+  border-radius: 8px;
+  outline: none;
+  width: 80%;
+}
+input::placeholder {
+  color: #9a8c82;
+}
+input:focus {
+  background-color: #fff8f3;
+  border-color: #c26a3a;
+  box-shadow: 0 0 0 3px rgba(194, 106, 58, 0.5);
+  transform: scale(1);
+}
+.login {
+  background-color: #c26a3a;
+  color: #ffffff;
+  border: 1px solid #c26a3a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-left: 240px;
+  width: 60%;
+  cursor: pointer;
+}
+.login:hover {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(194, 106, 58, 0.5);
+}
+.row span {
+  color: red;
+  font-size: 13px;
+  margin-left: 80px;
+
+  display: block;
+}
+/* الصفحه التانيه */
+.admin2 {
+  margin-top: 15px;
+}
+.admin2 input {
+  margin: 9px;
+}
+.bth {
+  display: flex;
+  justify-content: between;
+  gap: 10px;
+  margin-left: 10px;
+}
+.bth button {
+  background-color: #c26a3a;
+  color: #ffffff;
+  border: 1px solid #c26a3a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.bth button:hover {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(194, 106, 58, 0.5);
+}
+.products {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin: 0 0 8px;
+}
